@@ -1,0 +1,197 @@
+body {
+    background: -o-linear-gradient(40deg,#ff4169,#7c26f8), url('../img/capa.png'), url('../img/ruido.png');
+    background: linear-gradient(50deg,#ff4169,#7c26f8), url('../img/capa.png'), url('../img/ruido.png');
+    background-attachment: fixed;
+    background-blend-mode: hue;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > header {
+    background: rgba(0, 0, 0, 0.64);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #9bf0e1;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+#carousel button {
+    border: 0;
+    font-size: 4em;
+    color: rgba(255, 255, 255, 0.64);
+    background: transparent;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+#carousel button:hover {
+    color: #fff;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+#carousel .carousel-container button {
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 12px;
+    font-size: 1em;
+    color: #fff;
+    background: transparent;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#carousel .carousel-container button:hover {
+    color: #000;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#carousel .carousel-container .btn-roxo {
+    border: 0;
+    background: rgba(124, 37, 248, 1);
+    -webkit-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+#carousel .carousel-container .btn-roxo:hover {
+    background: #6207e3;
+    -webkit-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+#music {
+    background: #fff;
+}
+
+#music h2 {
+    font-size: 2em;
+    color: #7c25f8;
+}
+
+#music h3 {
+    font-size: 1.5em;
+    color: #7c25f8;
+}
+
+#about h2 {
+    font-size: 3em;
+    color: #fff;
+}
+
+#about h3 {
+    font-size: 1.5em;
+    color: #9bf0e1;
+}
+
+#about p {
+    color: #fff;
+}
+
+#links {
+    color: #ccc;
+    background: #000;
+    cursor: default;
+}
+
+#links ul {
+    list-style-type: none;
+}
+
+/* Carousel Autoplay */
+@-webkit-keyframes slider {
+    0% { left: 0; }
+    50% { left: -100%; }
+    100% { left: -200%; }
+}
+@keyframes slider {
+    0% { left: 0; }
+    50% { left: -100%; }
+    100% { left: -200%; }
+}
+
+.carousel-slider {
+    position: relative;
+    left: 0;
+    -webkit-animation: slider 10s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+            animation: slider 10s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+.carousel-slider:hover {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}
+/* Carousel Autoplay END */
+
+.carousel-container h3 {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    cursor: default;
+}
+
+.btn-border {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.links-icon {
+    font-size: 2em;
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+    header > div {
+        font-size: 1.32em;
+    }
+
+    .collapse {
+        height: 0;
+        overflow-y: hidden;
+        -webkit-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+    
+    .expand {
+        height: 128px;
+        overflow-y: hidden;
+        -webkit-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+}
+
+@media (min-width: 768px) {
+    body > header > nav li, #music > article, #about > article {
+        font-size: 1.1em;
+    }
+
+    #carousel {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1440px) {
+    #carousel .carousel-container div button, #music p, #about p, .collapse {
+        font-size: 0.9em;
+    }
+}

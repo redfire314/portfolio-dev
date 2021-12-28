@@ -1,0 +1,21 @@
+<div class="perfilPainel">
+	<div class="row mt-2 mb-2">
+		<div class="col mb-2">
+			<span class="perfilPainelNome"><?=isset($_SESSION['nome']) ? $_SESSION['nome'] : '?'?></span>
+		</div>
+	</div>
+	<div class="row mb-2">
+		<div class="col">
+			<span class="perfilPainelItem">Tweets</span><br />
+			<span class="perfilPainelItemValor"><?=isset($_SESSION['totalTweets']) ? $_SESSION['totalTweets'] : '?'?></span>
+		</div>
+		<div class="col">
+			<span class="perfilPainelItem">Seguindo</span><br />
+			<span class="perfilPainelItemValor"><?=isset($_SESSION['totalFollows']) ? $_SESSION['totalFollows'] : '?'?></span>
+		</div>
+		<div class="col">
+			<span class="perfilPainelItem">Seguidores</span><br />
+			<span class="perfilPainelItemValor"><?=isset($_SESSION['totalFollowers']) ? $_SESSION['totalFollowers'] : '?'?></span>
+		</div>
+	</div>
+</div>

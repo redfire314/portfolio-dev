@@ -1,0 +1,47 @@
+<?php
+    session_start();
+    if (isset($_SESSION['id']) && isset($_SESSION['nome'])) {
+        header('Location: /timeline');
+    }
+?>
+
+<div class="container">
+  <div class="d-flex justify-content-center mt-5">
+    <div class="card" style="width: 36rem;">
+      <div class="card-body">
+        <div class="d-flex justify-content-center">
+          <a href="/"><img src="/img/twitter_logo.png" /></a>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>Crie sua conta</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <form action="/registrar" method="POST">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Nome" name="name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="E-mail" name="email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Senha" minlength="6" name="password">
+              </div>
+              <div class="mt-4 mb-4">
+                <small class="form-text">
+                  Ao inscrever-se, você concorda com os Termos de Serviço e com as Políticas de Privacidade, incluindo o Uso de Cookies. Outras pessoas poderão encontrar você pelo e-mail ou número de telefone fornecido · Opções de Privacidade
+                </small>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Inscrever-se</button>
+              <?php if (isset($_GET['error'])) { ?>
+                <small class="text text-danger">*Este endereço de email já está em uso!</small>
+              <?php } ?>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

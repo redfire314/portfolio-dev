@@ -1,0 +1,59 @@
+.bg {
+    background-image: url('../images/fundo.png');
+}
+
+.page {
+    width: 900px;
+    margin: auto;
+}
+
+.banner {
+    background-image: url('../images/capa.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 388px;
+}
+
+.pages {
+    height: 24px;
+    background-color: #aaaa9d;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d2d2c1;
+}
+
+.section {
+    background-color: #d2d2c1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #88887c;
+}
+
+.rights {
+    width: fit-content;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #d2d2c1;
+    padding: 10px;
+}
+
+a:hover {
+    color: #a3a348;
+    font-size: 21px;
+}

@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #e6e6e6;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+#header {
+    height: 192px;
+    background-color: #f7b600;
+}
+
+#header-title {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 48px;
+    font-size: 48px;
+}
+
+#header-pages {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 72px;
+    font-size: 24px;
+}
+
+#page {
+    width: 1366px;
+    margin: auto;
+}
+
+#section {
+    width: 896px;
+    background-color: rgb(255, 252, 247);
+    margin: 16px;
+    float: left;
+    padding: 8px;
+}
+
+.post-title {
+    font-size: 32px;
+    color: gold;
+}
+
+.post-text {
+    margin-bottom: 16px;
+}
+
+#side-section {
+    width: 384px;
+    margin: 16px;
+    float: right;
+}
+
+#last-post {
+    background-color: rgb(255, 252, 247);
+    padding: 4px;
+}
+
+#last-post-title {
+    background-color: rgb(199, 199, 199);
+    font-size: 24px;
+    color: rgb(59, 59, 59);
+    padding: 6px;
+    margin: 6px;
+}
+
+#last-post-text {
+    padding: 6px;
+    margin: 6px;
+}
+
+#side-pages {
+    background-color: rgb(255, 252, 247);
+    padding: 4px;
+    position: relative;
+    top: 16px;
+}
+
+#side-pages-title {
+    background-color: rgb(199, 199, 199);
+    font-size: 24px;
+    color: rgb(59, 59, 59);
+    padding: 6px;
+    margin: 6px;
+}
+
+#side-pages-text {
+    padding: 6px;
+    margin: 6px;
+    font-size: 18px;
+    color: gold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+a:hover {
+    font-size: 26px;
+}

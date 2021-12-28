@@ -1,0 +1,92 @@
+/* GERAL */
+@font-face {
+    font-family: Hey-Comic;
+    src: url('../fonts/Hey-Comic.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url('../imagens/mata_mosca2.png'), default;
+    font-family: Hey-Comic;
+}
+
+html, body, main {
+    height: 100vh;
+}
+
+body {
+    background: url('../imagens/bg.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN MENU */
+#menu {
+    width: 500px;
+    padding-top: 500px;
+    background: url('../imagens/game.png') no-repeat;
+}
+
+#menu form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu select {
+    padding: 6px 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
+input[type='button'] {
+    padding: 12px;
+    border-radius: 8px;
+    border: 0;
+    background: #dc3545;
+    color: #fff;
+    font-size: 1.1em;
+    transition: background 0.1s;
+}
+
+input[type='button']:hover {
+    background: #be2534;
+    transition: background 0.1s;
+}
+
+/* RESULT */
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding-top: 500px;
+    background: url('../imagens/game_over.png') no-repeat;
+}
+
+#result h2 {
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    margin-bottom: 8px;
+}
+
+/* STATS */
+#stats {
+    font-size: 1.1em;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    background: rgba(90, 90, 90, 0.3);
+    position: fixed;
+    padding: 12px;
+    margin: 12px;
+    border: 0;
+    border-radius: 8px;
+}

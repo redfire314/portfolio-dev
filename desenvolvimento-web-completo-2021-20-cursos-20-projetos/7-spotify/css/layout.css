@@ -1,0 +1,292 @@
+body, html {
+    height: 100vh;
+}
+
+body > header {
+    position: fixed;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+body > header > *, #about, #music > * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 16px;
+}
+
+#carousel {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+#carousel .carousel-container button {
+    margin-top: 16px;
+}
+
+#music h2, #about h2 {
+    margin: 16px 0;
+}
+
+#music h3, #about h3 {
+    margin: 16px 0 0 0;
+}
+
+#music p, #about p {
+    margin-top: 4px;
+}
+
+#links {
+    padding: 16px 0;
+}
+
+.carousel-container {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow-x: hidden;
+}
+
+.carousel-slider > div {
+    min-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.carousel-slider {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.links-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media (min-width: 280px) {
+    body > header > div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        min-width: 100%;
+    }
+
+    body > header > div img {
+        width: 32vw;
+    }
+
+    body > header > nav {
+        padding: 0 0 0 16px;
+    }
+
+    body > header > nav > ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    body > header > nav li {
+        margin-bottom: 8px;
+    }
+
+    #music > div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    #music img {
+        width: 100%;
+    }
+
+    #about {
+        overflow: hidden;
+    }
+
+    #about > div {
+        -webkit-transform: rotate(24deg);
+            -ms-transform: rotate(24deg);
+                transform: rotate(24deg);
+        position: relative;
+        z-index: -1;
+    }
+
+    #links > img {
+        width: 32vw;
+        padding: 0 16px;
+    }
+
+    #links ul {
+        padding: 0 16px;
+    }
+
+    #links > ul.links-icon {
+        padding: 0;
+    }
+
+    .links-icon img {
+        width: 10vw;
+        padding-left: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    body > header > div {
+        min-width: -webkit-fit-content;
+        min-width: -moz-fit-content;
+        min-width: fit-content;
+    }
+
+    body > header > div img {
+        width: 128px;
+    }
+
+    body > header > nav li {
+        display: inline;
+        margin: 12px;
+    }
+
+    #bars {
+        display: none;
+    }
+
+    #music {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #music > *, #about > * {
+        width: 50%;
+        max-width: 760px;
+    }
+
+    #music > div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    #music > div img {
+        width: 50%;
+        max-width: 380px;
+    }
+
+    #about {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #about > article {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+
+    #links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    #links > img {
+        width: 128px;
+        padding: 0;
+    }
+
+    #links > ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #links > ul img {
+        width: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    :root {
+        --centralize-x: 14vw;
+    }
+
+    body > header > *, #carousel, #about {
+        margin: 0 var(--centralize-x);
+    }
+
+    #music > div {
+        margin-left: var(--centralize-x);
+    }
+
+    #music > article {
+        margin-right: var(--centralize-x);
+    }
+
+    #links {
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Filmes Online</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            body {
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            p, .movie {
+                margin-bottom: 8px;
+            }
+
+            #container {
+                width: 50vw;
+                height: 50vh;
+                box-sizing: border-box;
+                border-radius: 8px;
+                padding: 32px;
+                overflow-y: auto;
+                background: rgba(204, 204, 204, .5);
+            }
+
+            .movie {
+                border-bottom: 1px dotted rgba(0, 0, 0, .2);
+            }
+        </style>
+        <script>
+            function getFilmes() {
+                let xhr = new XMLHttpRequest()
+                xhr.open('GET', 'filmes.json')
+                xhr.onreadystatechange = () => {
+                    if(xhr.readyState == 4 && xhr.status == 200) {
+                        let jsonFilmes = JSON.parse(xhr.responseText)
+                        for(let filme in jsonFilmes.filmes) {
+                            let item = jsonFilmes.filmes[filme]
+
+                            let div = document.createElement('div')
+                            div.classList = 'movie'
+
+                            let title = document.createElement('h2')
+                            title.innerText = item['titulo']
+
+                            let summary = document.createElement('p')
+                            summary.innerText = item['resumo']
+
+                            let genre = document.createElement('p')
+                            let genreName =  ''
+                            for(let g in item['generos']) {
+                                if(genreName)
+                                    genreName += ', ' + item['generos'][g].genero
+                                else
+                                    genreName = item['generos'][g].genero
+                            }
+
+                            genre.innerText = genreName
+
+                            let cast = document.createElement('p')
+                            let castName =  ''
+                            for(let c in item['elenco']) {
+                                if(castName)
+                                castName += ', ' + item['elenco'][c].ator
+                                else
+                                castName = item['elenco'][c].ator
+                            }
+                            
+                            cast.innerText = castName
+
+                            let release = document.createElement('p')
+                            release.innerText = `${item['dataLancamento']['data']} (${item['dataLancamento']['pais']})`
+
+                            document.querySelector('#container').appendChild(div)
+                            div.appendChild(title)
+                            div.appendChild(summary)
+                            div.appendChild(genre)
+                            div.appendChild(cast)
+                            div.appendChild(release)
+                        }
+                    }
+                }
+                
+                xhr.send()
+            }
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <script>getFilmes()</script>
+        </div>
+    </body>
+</html>

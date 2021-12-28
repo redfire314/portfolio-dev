@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+}
+
+header * {
+    color: white;
+}
+
+header a:hover {
+    color: wheat;
+}
+
+input, button {
+    padding: 8px;
+    border: 0;
+}
+
+input[type='email'] {
+    border-radius: 4px 0 0 4px;
+}
+
+input[type='button'] {
+    border-radius: 0 4px 4px 0;
+    background: #0d6efd;
+}
+
+main article header {
+    font-weight: bold;
+    font-size: 1.64em;
+}
+
+main article button {
+    color: white;
+    border-radius: 4px;
+    background: #0d6efd;
+}
+
+footer a {
+    color: #0d6efd;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#bars-menu {
+    margin: 12px;
+}
+
+#bars-menu:hover {
+    cursor: pointer;
+}
+
+.btn {
+    padding: 4px 6px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    border: 1px solid wheat;
+}
+
+.icon-link {
+    color: #000;
+}
+
+.icon-link:hover {
+    color: #0d6efd;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+@media (min-width: 280px) and (max-width: 599px) {
+    .collapsed {
+        height: 0;
+        overflow-y: hidden;
+        transition: height .5s;
+    }
+
+    .expanded {
+        height: 140px;
+        overflow-y: hidden;
+        transition: height .5s;
+    }
+}
+
+@media (min-width: 600px) {
+    header > div article h3 {
+        font-size: 2em;
+    }
+
+    header > div article p {
+        font-size: 1.5em;
+    }
+}

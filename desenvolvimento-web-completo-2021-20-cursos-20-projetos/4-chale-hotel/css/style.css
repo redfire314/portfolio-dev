@@ -1,0 +1,181 @@
+/* GERAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: url('../images/bg.png');
+}
+
+ul {
+    list-style-type: none;
+    width: fit-content;
+}
+
+h1 {
+    cursor: default;
+    position: fixed;
+    color: rgba(0, 0, 0, 0);
+}
+
+/* GERAL END */
+/* HEADER */
+#header {
+    min-width: 920px;
+    max-width: 1366px;
+    height: 250px;
+    margin: auto;
+    background: url('../images/topo-imagem-principal2.png') no-repeat left top;
+}
+
+#header h1 {
+    width: 151px;
+    height: 66px;
+    margin: 16px;
+    position: fixed;
+    color: rgba(0, 0, 0, 0);
+    background: url('../images/logo.png') no-repeat left top;
+}
+
+/* HEADER MENU */
+#header-menu {
+    width: 639px;
+    height: 250px;
+    float: right;
+    background: url('../images/topo-imagem-lateral.png') no-repeat right top;
+}
+
+/* DESCRIPTION */
+#header .desc {
+    border-top: 1px solid #a9a052;
+    border-bottom: 1px solid #a9a052;
+    width: fit-content;
+    padding: 8px 0px;
+    margin: 24px 0px 24px 88px;
+    color: #a9a052;
+    cursor: default;
+}
+
+#header .desc a {
+    padding: 4px 8px;
+    margin-left: 32px;
+    background: #a7a053;
+    color: #f0e69c;
+    text-transform: uppercase;
+}
+
+#header .desc a:hover {
+    background: #f0e69c;
+    color: #a7a053;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* DESCRIPTION END */
+/* LINKS */
+#header-menu ul {
+    height: 164px;
+    padding-right: 300px;
+    margin-left: 88px;
+    background: url('../images/depoimento.png') no-repeat right top; /* Color absolute? */
+}
+
+#header-menu li {
+    margin: 12px;
+}
+
+#header-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9c8b47;
+}
+
+#header-menu li a:hover, #header-menu a[href="#"]{
+    background: #f0e69c;
+    /*background: url('../images/ornamento.png') no-repeat right center;*/
+}
+
+/* LINKS END */
+/* HEADER MENU END */
+/* HEADER END */
+/* CONTENT */
+#content {
+    min-width: 920px;
+    max-width: 1366px;
+    margin: auto;
+    background: url('../images/bg-container.png') repeat-y center top;
+}
+
+/* LEFT CONTENT */
+#left-con {
+    width: 50%;
+    background: url('../images/bg-area-principal.png') repeat-x left top;
+    float: left;
+}
+
+#left-con h2 {
+    margin: 24px 24px 12px 24px;
+    font-weight: bold;
+    color: #92845a;
+}
+
+.left-con-text {
+    display: block;
+    margin: 12px 24px 12px 24px;
+}
+
+/* LEFT CONTENT END */
+/* RIGHT CONTENT */
+#right-con {
+    width: 50%;
+    padding-bottom: 18px;
+    background: url('../images/bg-area-lateral.png') repeat-x left top;
+    float: right;
+}
+
+#right-con>div {
+    margin-top: 18px;
+}
+
+/* RIGHT CONTENT MINOR */
+.right-con-minor {
+    width: 90%;
+    margin: auto;
+    padding: 18px;
+    background: url('../images/bg-linha.gif') repeat-x center bottom;
+}
+
+.right-con-minor:hover {
+    background: #ede9cc;
+    cursor: pointer;
+}
+
+.right-con-minor img {
+    height: 96px;
+    margin-right: 8px;
+    float: left;
+}
+
+.right-con-minor h3 {
+    margin: 4px 0px;
+    font-weight: bold;
+    color: #716b4d;
+    background: url('../images/ornamento.png') no-repeat right center;
+}
+
+/* RIGHT CONTENT MINOR END*/
+/* RIGHT CONTENT END */
+/* CONTENT END */
+/* FOOTER */
+#footer {
+    min-width: 920px;
+    max-width: 1366px;
+    margin: auto;
+    color: #92845a;
+    padding-top: 18px;
+}
+
+/* FOOTER END*/

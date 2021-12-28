@@ -1,0 +1,179 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 920px;
+    max-width: 1080px;
+    margin: auto;
+    background: #f4f2ec url('../images/fundo.png') repeat-x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #af670a;
+}
+
+/* GERAL END */
+/* HEADER */
+header {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: rgba(0, 0, 0, 0);
+    font-size: 1.8em;
+    background: url('../images/logo.png') no-repeat center;
+}
+
+/* HEADER NAV */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li a {
+    margin: 12px;
+    transition: text-shadow 0.3s;
+}
+
+nav li a:hover {
+    text-shadow: 0 0 12px #fff;
+    transition: text-shadow 0.3s;
+}
+
+/* HEADER NAV END*/
+/* HEADER END */
+/* ARTICLE */
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+article h2 {
+    color: #af670a;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+/* SECTION */
+section {
+    flex-basis: 640px;
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section div {
+    box-sizing: border-box;
+    padding: 8px;
+    width: 344px;
+}
+
+section ul {
+    margin-top: 8px;
+    margin-left: 32px;
+}
+
+section a {
+    text-transform: initial;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* SECTION END */
+/* SIDE */
+aside {
+    flex-basis: 256px;
+}
+
+aside>div {
+    background: #d4d1c8;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+/* SIDE BOOKING */
+aside fieldset {
+    border: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside legend {
+    text-transform: uppercase;
+    color: #af670a;
+    font-weight: bold;
+}
+
+aside label {
+    margin-right: 50%;
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+aside input[type="number"], aside input[type="date"] {
+    width: 164px;
+    margin: 4px;
+}
+
+aside input[type="submit"] {
+    padding: 6px 24px;
+    margin-top: 4px;
+    color: #fff;
+    background: #a8a59c;
+    border: 0;
+    margin: auto;
+    transition: text-shadow 0.3s;
+}
+
+aside input[type="submit"]:hover {
+    cursor: pointer;
+    text-shadow: 0 0 12px #fff;
+    transition: text-shadow 0.3s;
+}
+
+/* SIDE BOOKING END */
+/* SIDE PHOTOS */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photos {
+    width: 128px;
+    height: 128px;
+    background: url('../images/fundo-foto.png') no-repeat left top;
+}
+
+.photos img {
+    margin: 16px;
+}
+
+/* SIDE PHOTOS END */
+/* SIDE END */
+/* ARTICLE END */
+/* FOOTER */
+footer {
+    margin-top: 8px;
+    padding-top: 12px;
+    background: url('../images/fundo-rodape.png') no-repeat center top;
+    text-align: center;
+}
+
+/* FOOTER END */
