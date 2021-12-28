@@ -1,32 +1,8 @@
 # study
 Web Development Activities :computer:
 
-Certificate of completion :man_student:: [Link](https://www.udemy.com/certificate/UC-d2a53415-6284-4828-8291-ba1e2e8e10f6/)
+Certificate of completion :man_student: [[Link]](https://www.udemy.com/certificate/UC-d2a53415-6284-4828-8291-ba1e2e8e10f6/)
 
 ## Contents:
+### Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos
 HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Object-oriented programming, MySQL Database, AJAX, Architectural design MVC, JQuery, API Slim Framework, WordPress, SASS, IONIC and more.
-
-## Contents of indexed folders:
-### 1 ~ 7
-HTML and CSS
-
-### 8 ~ 10
-JavaScript
-
-### 11 ~ 14
-PHP
-
-### 15
-JQuery
-
-### 16
-PHP with MVC
-
-### 17
-API with Slim Framework
-
-### 18
-IONIC
-
-### 19
-WordPress
