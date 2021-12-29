@@ -1,0 +1,39 @@
+<main>
+    <section class="container" id="search">
+        <div class="row">
+            <div class="col s12 m6">
+                <h2>Home</h2>
+                <form action="">
+                    <select name="text" class="browser-default">
+                        <option disabled selected>- Selecione -</option>
+                        <?php foreach ($var['books'] as $key => $value): ?>
+                            <optgroup label="<?= $key ?>">
+                            <?php foreach ($value as $subKey => $text): ?>
+                                <option value="<?=$text['path']?>"><?=$subKey?></option>
+                            <?php endforeach ?>
+                            </optgroup>
+                        <?php endforeach ?>
+                    </select>
+                    <button class="btn waves-effect waves-light" type="submit">Procurar<i class="material-icons right">search</i></button>
+                    <button class="btn waves-effect waves-light prevent" onclick="compareText()">Comparar<i class="material-icons right">manage_search</i></button>
+                    <button class="btn waves-effect waves-light prevent" onclick="toggleText()"><i class="material-icons">visibility</i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="input-field col s12 m6">
+                <textarea id="textarea1" class="materialize-textarea" rows="20"></textarea>
+                <label for="textarea1">Texto</label>
+            </div>
+            <div class="input-field col s12 m6">
+                <?php if (isset($var['text'])): ?>
+                    <p class="hide-text" id="correct-text"><?=$var['text']?></p>
+                <?php else: ?>
+                    <p id="correct-text">Escolha algum texto para realizar a comparação.</p>
+                <?php endif ?>
+            </div>
+        </div>
+    </section>
+</main>

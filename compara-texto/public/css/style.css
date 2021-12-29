@@ -1,0 +1,16 @@
+.hide-text {
+    color: #ccc;
+    background: #ccc;
+}
+
+.hide-text::selection {
+    display: none;
+}
+
+.wrong {
+    color: red;
+}
+
+.hide-text .wrong {
+    color: #ccc;
+}

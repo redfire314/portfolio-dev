@@ -47,6 +47,13 @@
 /desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/*.log
 /desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/.htaccess
 
+/compara-texto/composer.phar
+/compara-texto/vendor/
+/compara-texto/.env
+/compara-texto/TODO.txt
+/compara-texto/Tests/*.php
+/compara-texto/App/Database/text/*.txt
+
 # Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
