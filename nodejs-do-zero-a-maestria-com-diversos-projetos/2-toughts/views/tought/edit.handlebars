@@ -1,0 +1,13 @@
+<div class="user-tought">
+    <h2>Alterar pensamento</h2>
+    <form action="/tought/edit" method="POST">
+        <div>
+            <label for="title">Pensamento</label>
+            <input type="hidden" name="id" value="{{tought.id}}">
+            <input type="text" name="title" id="title" value="{{tought.title}}">
+        </div>
+        <div>
+            <button type="submit">Salvar</button>
+        </div>
+    </form>
+</div>

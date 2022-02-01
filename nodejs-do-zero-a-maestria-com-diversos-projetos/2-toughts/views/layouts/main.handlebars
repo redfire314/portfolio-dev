@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Nodejs com MVC</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <form action="">
+                    <label for="new">Recentes</label>
+                    <input type="radio" name="order" value="DESC" id="new">
+                    <label for="old">Mais antigos</label>
+                    <input type="radio" name="order" value="ASC" id="old">
+                    <input type="text" name="search" placeholder="Está procurando algo?">
+                    <button type="submit">Procurar</button>
+                </form>
+            </div>
+            <ul>
+                {{#if session.user.id}}
+                    <li><a href="/">Pensamentos</a></li>
+                    <li><a href="/tought/create">Criar pensamento</a></li>
+                    <li><a href="/tought/dashboard">Dashboard</a></li>
+                    <li><a href="/logout">Sair</a></li>
+                {{else}}
+                    <li><a href="/">Pensamentos</a></li>
+                    <li><a href="/login">Entrar</a></li>
+                    <li><a href="/signup">Criar conta</a></li>
+                {{/if}}
+            </ul>
+        </nav>
+    </header>
+    <h3>{{messages.message}}</h3>
+    <main>
+        {{{body}}}
+    </main>
+    <footer>
+        &copy; Node.js | MySQL | MVC 2021.
+    </footer>
+</body>
+</html>

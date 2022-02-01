@@ -1,0 +1,19 @@
+<div class="user-dashboard">
+    <h1>Dashboard</h1>
+    {{#if toughts}}
+        {{#each toughts}}
+            <div class="tought">
+                <h3>{{this.title}}</h3>
+                <div>
+                    <a class="btn-action" href="/tought/edit/{{this.id}}">Modificar</a>
+                    <form action="/tought/remove" method="POST">
+                        <input type="hidden" name="id" value="{{this.id}}">
+                        <button class="btn-action" type="submit">Remover</button>
+                    </form>
+                </div>
+            </div>
+        {{/each}}
+    {{else}}
+        <h3>Você ainda não criou um pensamento</h3>
+    {{/if}}
+</div>

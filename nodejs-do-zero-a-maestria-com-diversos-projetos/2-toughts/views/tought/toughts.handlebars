@@ -1,0 +1,13 @@
+<div class="toughts">
+    <h1>Pensamentos</h1>
+    {{#if toughts}}
+        {{#each toughts}}
+            <div class="tought">
+                <h3>{{this.title}}</h3>
+                <span>Por: {{this.User.name}}</span>
+            </div>
+        {{/each}}
+    {{else}}
+        <h3>Ainda não foram criados pensamentos</h3>
+    {{/if}}
+</div>
