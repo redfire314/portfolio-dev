@@ -16,7 +16,3 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 ### Compara Texto (PHP)
 Compara Texto é um Projeto Pessoal com o objetivo de comparar textos e retornar as estatísticas da comparação.
 O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, JQuery, Responsive Design, entre outros.
-
-### Adote um Pet (ReactJS + Express)
-Adote um Pet é um Projeto Pessoal que permite os usuários se cadastrarem e cadastrar pets para adoção, onde outro usuário pode agendar uma visita.
-O app foi desenvolvido utilizando a stack MERN (MongoDB, Express, ReactJS e Node.js).

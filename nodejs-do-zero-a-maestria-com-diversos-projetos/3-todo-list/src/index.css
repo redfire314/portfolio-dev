@@ -1,0 +1,99 @@
+:root {
+    --color-main: turquoise;
+    --color-secondary: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+body {
+    background-color: #333;
+}
+
+.input-task {
+    background-color: var(--color-secondary);
+    border: none;
+    border-radius: 5px;
+    padding: 4px 0;
+    width: 66%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-task {
+    padding: 4px 8px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 30%;
+    background-color: var(--color-main);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-task:hover {
+    color: var(--color-main);
+    background-color: transparent;
+    border-color: var(--color-main);
+}
+
+.task {
+    background-color: var(--color-secondary);
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0;
+}
+
+.task .title {
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.task button {
+    border: none;
+    margin-left: 4px;
+    padding: 5px;
+    background-color: transparent;
+    color: var(--color-main);
+    cursor: pointer;
+}
+
+.task.done {
+    border-left: 3px solid var(--color-main);
+}
+
+.title {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.todo-tasks {
+    min-width: 320px;
+    max-width: 50%;
+    margin: 32px auto;
+    padding: 8px;
+    border: 3px solid var(--color-main);
+    border-radius: 5px;
+}
+
+.details-container {
+    background-color: var(--color-secondary);
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+.details-container h2 {
+    margin-bottom: 6px;
+}
+
+.details-container span {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--color-main);
+}
