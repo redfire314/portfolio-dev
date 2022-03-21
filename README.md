@@ -1,3 +1,12 @@
+## Conteúdo :notebook:
+- [Certificados](https://github.com/redfire314/estudo#certificados-man_student)
+     - [Node.js do Zero a Maestria com diversos Projetos](https://github.com/redfire314/estudo#nodejs-do-zero-a-maestria-com-diversos-projetos)
+     - [Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos](https://github.com/redfire314/estudo#desenvolvimento-web-completo-2021---20-cursos--20-projetos)
+- [Destaque](https://github.com/redfire314/estudo#destaque-fire)
+- [Principais skills](https://github.com/redfire314/estudo#principais-skills-star)
+- [Projetos](https://github.com/redfire314/estudo#projetos-telescope)
+     - [Compara Texto (PHP)](https://github.com/redfire314/estudo#compara-texto-php)
+
 ## Certificados :man_student:
 ### Node.js do Zero a Maestria com diversos Projetos
 Certificado [[Link]](https://www.udemy.com/certificate/UC-e0ffdd67-80f8-481d-be93-1112c294047e/)
@@ -32,3 +41,5 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 ### Compara Texto (PHP)
 Compara Texto é um Projeto Pessoal com o objetivo de comparar textos e retornar as estatísticas da comparação.
 O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, JQuery e Responsive Design.
+
+[Voltar ao topo](https://github.com/redfire314/estudo#conteudo-notebook)
