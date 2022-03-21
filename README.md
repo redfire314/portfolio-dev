@@ -42,4 +42,4 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 Compara Texto é um Projeto Pessoal com o objetivo de comparar textos e retornar as estatísticas da comparação.
 O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, JQuery e Responsive Design.
 
-[Voltar ao topo](https://github.com/redfire314/estudo#conteudo-notebook)
+[Voltar ao topo :top:](https://github.com/redfire314/estudo#conteúdo-notebook)
