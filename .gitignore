@@ -1,61 +1,26 @@
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/16-twitter-mvc/composer.phar
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/16-twitter-mvc/vendor/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/17-slim-framework-api/slim-skeleton/composer.phar
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/17-slim-framework-api/slim-skeleton/vendor/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/*~
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/*.sw[mnpcod]
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.tmp
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/*.tmp
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/*.tmp.*
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/*.sublime-project
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/*.sublime-workspace
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.gitignore
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.DS_Store
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/Thumbs.db
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/UserInterfaceState.xcuserstate
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/$RECYCLE.BIN/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/*.log
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/log.txt
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/npm-debug.log*
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.idea/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.ionic/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.sass-cache/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.sourcemaps/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.versions/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/.vscode/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/coverage/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/dist/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/node_modules/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/platforms/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/plugins/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/18-ionic/www/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-admin/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-content/index.php
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-content/languages
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-content/plugins/index.php
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-content/themes/index.php
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-includes/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/index.php
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/license.txt
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/readme.html
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-*.php
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/xmlrpc.php
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-config.php
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-content/themes/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-content/plugins/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/wp-content/uploads/
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/*.log
-/desenvolvimento-web-completo-2021-20-cursos-20-projetos/19-wordpress/.htaccess
+# PHP
+vendor/
+composer.phar
 
-/compara-texto/composer.phar
-/compara-texto/vendor/
-/compara-texto/.env
-/compara-texto/Tests/*.php
-/compara-texto/App/Database/text/*.txt
+# Node.js
+node_modules/
+.env
 
-node_modules
-TO DO.txt
-
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+# WordPress
+wp-admin/
+wp-content/index.php
+wp-content/languages
+wp-content/plugins/index.php
+wp-content/themes/index.php
+wp-includes/
+#index.php
+license.txt
+readme.html
+wp-*.php
+xmlrpc.php
+wp-config.php
+wp-content/themes/
+wp-content/plugins/
+wp-content/uploads/
+*.log
+.htaccess
