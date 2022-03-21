@@ -1,12 +1,12 @@
 ## Conteúdo :notebook:
-- [Certificados](https://github.com/redfire314/estudo#certificados-man_student)
-     - [Node.js do Zero a Maestria com diversos Projetos](https://github.com/redfire314/estudo#nodejs-do-zero-a-maestria-com-diversos-projetos)
-     - [Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos](https://github.com/redfire314/estudo#desenvolvimento-web-completo-2021---20-cursos--20-projetos)
-- [Destaque](https://github.com/redfire314/estudo#destaque-fire)
-- [Principais skills](https://github.com/redfire314/estudo#principais-skills-star)
-- [Projetos](https://github.com/redfire314/estudo#projetos-telescope)
-     - [Compara Texto (PHP)](https://github.com/redfire314/estudo#compara-texto-php)
-- [Links](https://github.com/redfire314/estudo#links-mailbox)
+- [Certificados](https://github.com/redfire314/portfolioDev#certificados-man_student)
+     - [Node.js do Zero a Maestria com diversos Projetos](https://github.com/redfire314/portfolioDev#nodejs-do-zero-a-maestria-com-diversos-projetos)
+     - [Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos](https://github.com/redfire314/portfolioDev#desenvolvimento-web-completo-2021---20-cursos--20-projetos)
+- [Destaque](https://github.com/redfire314/portfolioDev#destaque-fire)
+- [Principais skills](https://github.com/redfire314/portfolioDev#principais-skills-star)
+- [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
+     - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
+- [Links](https://github.com/redfire314/portfolioDev#links-mailbox)
      - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
 
 ## Certificados :man_student:
@@ -47,4 +47,4 @@ O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, 
 ## Links :mailbox:
 - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
 
-[Voltar ao topo :top:](https://github.com/redfire314/estudo#conteúdo-notebook)
+[Voltar ao topo :top:](https://github.com/redfire314/portfolioDev#conteúdo-notebook)
