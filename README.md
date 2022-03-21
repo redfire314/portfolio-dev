@@ -2,7 +2,7 @@
 - [Certificados](https://github.com/redfire314/portfolioDev#certificados-man_student)
      - [Node.js do Zero a Maestria com diversos Projetos](https://github.com/redfire314/portfolioDev#nodejs-do-zero-a-maestria-com-diversos-projetos)
      - [Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos](https://github.com/redfire314/portfolioDev#desenvolvimento-web-completo-2021---20-cursos--20-projetos)
-- [Destaque](https://github.com/redfire314/portfolioDev#destaque-fire)
+- [Destaques](https://github.com/redfire314/portfolioDev#destaques-fire)
 - [Principais skills](https://github.com/redfire314/portfolioDev#principais-skills-star)
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
      - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
