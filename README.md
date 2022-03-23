@@ -22,16 +22,16 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 
 ## Destaques :fire:
 - Padrão MVC
-- TypeScript
-- SOLID
-- TDD com Jest
+- Domain-Driven Design (DDD)
+- Test-Driven Development (TDD)
 - API REST
-- Git
+- Redux
+- Styled-components
 
 ## Principais skills :star:
 - HTML
 - CSS
-- JavaScript
+- JavaScript/TypeScript
 - PHP
 - MySQL
 - MongoDB
