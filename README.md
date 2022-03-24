@@ -43,7 +43,9 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 ## Projetos :telescope:
 ### Counter (ReactJS)
 O usuário gira a moeda com 50% de chance de fazê-la mudar de lado, e o contador conta quantas vezes o usuário girou a moeda.
+
 App simples com o intuito de aplicar os seguintes conhecimentos: ReactJS, TypeScript, React-Redux, Styled-Components, memo, useMemo e mais.
+
 [Demo](https://leandrofreelancer.com.br/demo/reactjs-counter/)
 
 ### Compara Texto (PHP)
