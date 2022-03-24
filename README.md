@@ -5,6 +5,7 @@
 - [Destaques](https://github.com/redfire314/portfolioDev#destaques-fire)
 - [Principais skills](https://github.com/redfire314/portfolioDev#principais-skills-star)
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
+     - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
      - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
 - [Links](https://github.com/redfire314/portfolioDev#links-mailbox)
      - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
@@ -40,6 +41,11 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 - Node.js
 
 ## Projetos :telescope:
+### Counter (ReactJS)
+O usuário gira a moeda com 50% de chance de fazê-la mudar de lado, e o contador conta quantas vezes o usuário girou a moeda.
+App simples com o intuito de aplicar os seguintes conhecimentos: ReactJS, TypeScript, React-Redux, Styled-Components, memo, useMemo e mais.
+[Demo](https://leandrofreelancer.com.br/demo/reactjs-counter/)
+
 ### Compara Texto (PHP)
 Compara Texto é um Projeto Pessoal com o objetivo de comparar textos e retornar as estatísticas da comparação.
 O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, JQuery e Responsive Design.
