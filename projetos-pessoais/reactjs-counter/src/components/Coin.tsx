@@ -5,7 +5,7 @@ import ActionBtn from './ActionBtn';
 import Text from './Text';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { increment } from '../store/slices/counterSlice';
+import { increment } from '../store/modules/counter';
 
 interface Istate {
     counter: Icounter;
