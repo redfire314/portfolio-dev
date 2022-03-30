@@ -1,14 +1,13 @@
 import { memo, useState, useEffect } from 'react';
 import styled, { css } from 'styled-components';
-
 import { useSelector } from 'react-redux';
-
-interface Istate {
-    counter: Icounter;
-}
 
 interface Icounter {
     value: number;
+}
+
+interface Istate {
+    counter: Icounter;
 }
 
 interface IpropsContainer {
@@ -52,7 +51,7 @@ function CoinSide(props: IpropsCoin) {
 
     return (
         <Container animate={animation}>
-            <Title>{props.text}</Title>
+            <Title data-testid='coinside'>{props.text || '?'}</Title>
         </Container>
     );
 }

@@ -1,9 +1,9 @@
 interface Iprops {
-    text: string;
+    count: any;
 }
 
 function Text(props: Iprops) {
-    return <p>{props.text}</p>;
+    return <p data-testid='text'>Você girou a moeda {props.count || 0} vezes</p>;
 }
 
 export default Text;

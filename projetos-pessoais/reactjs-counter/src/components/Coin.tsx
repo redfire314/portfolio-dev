@@ -1,22 +1,22 @@
 import { useState, useMemo } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+
+import { increment } from '../store/modules/counter';
 
 import CoinSide from './CoinSide';
 import ActionBtn from './ActionBtn';
 import Text from './Text';
 
-import { useSelector, useDispatch } from 'react-redux';
-import { increment } from '../store/modules/counter';
+interface Icounter {
+    value: number;
+}
 
 interface Istate {
     counter: Icounter;
 }
 
-interface Icounter {
-    value: number;
-}
-
 function Coin() {
-    const [coinSide, setCoinSide] = useState('Cara');
+    const [coinSide, setCoinSide] = useState('?');
     const counter = useSelector<Istate>((state) => state.counter.value);
     const counterDispatch = useDispatch();
 
@@ -33,13 +33,12 @@ function Coin() {
         <>
             <CoinSide text={sideMemo} />
             <ActionBtn
-                text='Girar moeda'
                 action={() => {
                     spinCoin();
                     counterDispatch(increment());
                 }}
             />
-            <Text text={`Você girou a moeda ${counter} vezes`} />
+            <Text count={counter} />
         </>
     );
 }
