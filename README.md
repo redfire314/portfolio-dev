@@ -5,6 +5,7 @@
 - [Destaques](https://github.com/redfire314/portfolioDev#destaques-fire)
 - [Principais skills](https://github.com/redfire314/portfolioDev#principais-skills-star)
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
+     - [TODO App (ReactJS)](https://github.com/redfire314/portfolioDev#todo-app-reactjs)
      - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
      - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
 - [Links](https://github.com/redfire314/portfolioDev#links-mailbox)
@@ -41,6 +42,13 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 - Node.js
 
 ## Projetos :telescope:
+### TODO App (ReactJS)
+Permite que o usuário adicione tarefas a serem feitas, marcá-las como finalizadas e removê-las.
+
+App simples com o intuito de aplicar os seguintes conhecimentos: ReactJS, TypeScript, Styled-Components e mais.
+
+[Demo](https://leandrofreelancer.com.br/demo/reactjs-todo-list/)
+
 ### Counter (ReactJS)
 O usuário gira a moeda com 50% de chance de fazê-la mudar de lado, e o contador conta quantas vezes o usuário girou a moeda.
 
