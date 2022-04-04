@@ -45,7 +45,7 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 ### TODO App (ReactJS)
 Permite que o usuário adicione tarefas a serem feitas, marcá-las como finalizadas e removê-las.
 
-App simples com o intuito de aplicar os seguintes conhecimentos: ReactJS, TypeScript, Styled-Components e mais.
+Faz uso de: ReactJS, TypeScript, Styled-Components e mais.
 
 [Demo](https://leandrofreelancer.com.br/demo/reactjs-todo-list/)
 
