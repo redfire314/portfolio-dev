@@ -5,7 +5,7 @@
 - [Destaques](https://github.com/redfire314/portfolioDev#destaques-fire)
 - [Principais skills](https://github.com/redfire314/portfolioDev#principais-skills-star)
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
-     - [TODO App (ReactJS)](https://github.com/redfire314/portfolioDev#todo-app-reactjs)
+     - [To Do App (ReactJS)](https://github.com/redfire314/portfolioDev#to-do-app-reactjs)
      - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
      - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
 - [Links](https://github.com/redfire314/portfolioDev#links-mailbox)
@@ -42,7 +42,7 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 - Node.js
 
 ## Projetos :telescope:
-### TODO App (ReactJS)
+### To Do App (ReactJS)
 Permite que o usuário adicione tarefas a serem feitas, marcá-las como finalizadas e removê-las.
 
 Faz uso de: ReactJS, TypeScript, Styled-Components e mais.
