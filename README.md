@@ -24,6 +24,7 @@ Node.js, npm, Express, Express-handlebars, MySQL, Sequelize, MVC, MongoDB, Mongo
 HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação a Objetos, MySQL, AJAX, Design MVC, JQuery, API Slim Framework, WordPress, SASS, IONIC, entre outros.
 
 ## Destaques :fire:
+- TypeScript
 - Padrão MVC
 - Domain-Driven Design (DDD)
 - Test-Driven Development (TDD)
@@ -34,7 +35,7 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 ## Principais skills :star:
 - HTML
 - CSS
-- JavaScript/TypeScript
+- JavaScript
 - PHP
 - MySQL
 - MongoDB
@@ -48,14 +49,14 @@ Permite que o usuário adicione tarefas a serem feitas, marcá-las como finaliza
 
 Faz uso de: ReactJS, TypeScript, Styled-Components e mais.
 
-[Demo](https://leandrofreelancer.com.br/demo/reactjs-todo-list/)
+[Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/reactjs-todo-list) | [Demo](https://leandrofreelancer.com.br/demo/reactjs-todo-list/)
 
 ### Counter (ReactJS)
 O usuário gira a moeda com 50% de chance de fazê-la mudar de lado, e o contador conta quantas vezes o usuário girou a moeda.
 
 App simples com o intuito de aplicar os seguintes conhecimentos: ReactJS, TypeScript, React-Redux, Styled-Components, memo, useMemo e mais.
 
-[Demo](https://leandrofreelancer.com.br/demo/reactjs-counter/)
+[Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/reactjs-counter) | [Demo](https://leandrofreelancer.com.br/demo/reactjs-counter/)
 
 ### Get a Pet (ReactJS + Express + MongoDB)
 Permite que o usuário se registre, altere seu perfil, registre Pet para adoção, altere os dados do seu Pet e concluir a adoção.
