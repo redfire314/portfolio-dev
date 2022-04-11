@@ -7,7 +7,7 @@
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
      - [To-Do App (ReactJS)](https://github.com/redfire314/portfolioDev#to-do-app-reactjs)
      - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
-     - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolioDev#get-a-pet-reactjs-express-mongodb)
+     - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolioDev#get-a-pet-reactjs--express--mongodb)
      - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
 - [Links](https://github.com/redfire314/portfolioDev#links-mailbox)
      - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
