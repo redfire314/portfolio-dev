@@ -7,6 +7,7 @@
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
      - [To-Do App (ReactJS)](https://github.com/redfire314/portfolioDev#to-do-app-reactjs)
      - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
+     - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolioDev#get-a-pet-reactjs-express-mongodb)
      - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
 - [Links](https://github.com/redfire314/portfolioDev#links-mailbox)
      - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
@@ -56,9 +57,18 @@ App simples com o intuito de aplicar os seguintes conhecimentos: ReactJS, TypeSc
 
 [Demo](https://leandrofreelancer.com.br/demo/reactjs-counter/)
 
+### Get a Pet (ReactJS + Express + MongoDB)
+Permite que o usuário se registre, altere seu perfil, registre Pet para adoção, altere os dados do seu Pet e concluir a adoção.
+
+Site com Front-end e Back-end separado, comunicação através de API REST, faz uso de Banco de Dados NoSQL (MongoDB) e Json Web Token.
+
+[Repositório](https://github.com/redfire314/portfolioDev/tree/master/cursos/nodejs-do-zero-a-maestria-com-diversos-projetos/4-get-a-pet)
+
 ### Compara Texto (PHP)
 Compara Texto é um Projeto Pessoal com o objetivo de comparar textos e retornar as estatísticas da comparação.
 O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, JQuery e Responsive Design.
+
+[Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/compara-texto)
 
 ## Links :mailbox:
 - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
