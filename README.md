@@ -5,7 +5,7 @@
 - [Destaques](https://github.com/redfire314/portfolioDev#destaques-fire)
 - [Hard skills](https://github.com/redfire314/portfolioDev#hard-skills-star)
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
-     - [Movie App (ReactJS + Express)](https://github.com/redfire314/portfolioDev/edit/master/README.md#movie-app-reactjs--express)
+     - [Movie App (ReactJS + Express)](https://github.com/redfire314/portfolioDev#movie-app-reactjs--express)
      - [To-Do App (ReactJS)](https://github.com/redfire314/portfolioDev#to-do-app-reactjs)
      - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
      - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolioDev#get-a-pet-reactjs--express--mongodb)
