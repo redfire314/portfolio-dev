@@ -1,7 +1,7 @@
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 
-import Task from './Task';
+import Task from './index';
 
 describe('Initial state checker', () => {
     it('should start with the correct elements', () => {
