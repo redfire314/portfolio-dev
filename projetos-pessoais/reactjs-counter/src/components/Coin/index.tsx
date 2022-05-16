@@ -1,23 +1,23 @@
 import { useState, useMemo } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { increment } from '../store/modules/counter';
+import { increment } from '../../store/modules/counter';
 
-import CoinSide from './CoinSide';
-import ActionBtn from './ActionBtn';
-import Text from './Text';
+import CoinSide from '../CoinSide';
+import ActionBtn from '../ActionBtn';
+import Text from '../Text';
 
-interface Icounter {
+interface ICounter {
     value: number;
 }
 
-interface Istate {
-    counter: Icounter;
+interface IState {
+    counter: ICounter;
 }
 
 function Coin() {
     const [coinSide, setCoinSide] = useState('?');
-    const counter = useSelector<Istate>((state) => state.counter.value);
+    const counter = useSelector<IState>((state) => state.counter.value);
     const counterDispatch = useDispatch();
 
     const sideMemo = useMemo(() => {

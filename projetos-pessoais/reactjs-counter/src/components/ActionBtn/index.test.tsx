@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
-import ActionBtn from './ActionBtn';
+import ActionBtn from './index';
 
 describe('ActionBtn component initial state', () => {
     it('should render with the correct text', () => {
