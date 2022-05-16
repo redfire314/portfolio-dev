@@ -5,6 +5,7 @@
 - [Destaques](https://github.com/redfire314/portfolioDev#destaques-fire)
 - [Hard skills](https://github.com/redfire314/portfolioDev#hard-skills-star)
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
+     - [Movie App (ReactJS + Express)](https://github.com/redfire314/portfolioDev#movie-app-reactjs--express)
      - [To-Do App (ReactJS)](https://github.com/redfire314/portfolioDev#to-do-app-reactjs)
      - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
      - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolioDev#get-a-pet-reactjs--express--mongodb)
@@ -44,6 +45,25 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 - ReactJS
 
 ## Projetos :telescope:
+### Movie App (ReactJS + Express)
+Mostra ao usuário os filmes em lançamento, popular, mais avaliados e informações detalhadas do filme.
+Utiliza informações do [TMDB](https://www.themoviedb.org/) como fonte de dados.
+
+Faz uso de: TypeScript, Express, Axios, Morgan, PM2, styled-components, React Router Dom, entre outros.
+
+**Back-end .env**
+```
+APP_PORT= Porta utlizada no Back-end. Ex.: 5000
+MOVIEDB_API_KEY_V4= Chave TMDB
+```
+
+**Front-end .env**
+```
+REACT_APP_API_BASEURL= Endpoint do Back-end. Ex.: http://localhost:5000/api/movie
+```
+
+[Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/reactjs-movie-app)
+
 ### To-Do App (ReactJS)
 Permite que o usuário adicione tarefas a serem feitas, marcá-las como finalizadas e removê-las.
 
