@@ -16,19 +16,19 @@ const redfire314 = {
 
 ## Conteúdo :notebook:
 <!--
-- [Cursos](https://github.com/redfire314/portfolioDev#cursos-man_student)
-     - [Node.js do Zero a Maestria com diversos Projetos](https://github.com/redfire314/portfolioDev#nodejs-do-zero-a-maestria-com-diversos-projetos)
-     - [Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos](https://github.com/redfire314/portfolioDev#desenvolvimento-web-completo-2021---20-cursos--20-projetos)
+- [Cursos](https://github.com/redfire314/portfolio-dev#cursos-man_student)
+     - [Node.js do Zero a Maestria com diversos Projetos](https://github.com/redfire314/portfolio-dev#nodejs-do-zero-a-maestria-com-diversos-projetos)
+     - [Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos](https://github.com/redfire314/portfolio-dev#desenvolvimento-web-completo-2021---20-cursos--20-projetos)
 -->
-- [Destaques](https://github.com/redfire314/portfolioDev#destaques-fire)
-- [Hard skills](https://github.com/redfire314/portfolioDev#hard-skills-star)
-- [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
-     - [Movie App (ReactJS + Express)](https://github.com/redfire314/portfolioDev#movie-app-reactjs--express)
-     - [TODO List (ReactJS)](https://github.com/redfire314/portfolioDev#todo-list-reactjs)
-     - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
-     - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolioDev#get-a-pet-reactjs--express--mongodb)
-     - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
-- [Contato](https://github.com/redfire314/portfolioDev#contato-mailbox)
+- [Destaques](https://github.com/redfire314/portfolio-dev#destaques-fire)
+- [Hard skills](https://github.com/redfire314/portfolio-dev#hard-skills-star)
+- [Projetos](https://github.com/redfire314/portfolio-dev#projetos-telescope)
+     - [Movie App (ReactJS + Express)](https://github.com/redfire314/portfolio-dev#movie-app-reactjs--express)
+     - [TODO List (ReactJS)](https://github.com/redfire314/portfolio-dev#todo-list-reactjs)
+     - [Counter (ReactJS)](https://github.com/redfire314/portfolio-dev#counter-reactjs)
+     - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolio-dev#get-a-pet-reactjs--express--mongodb)
+     - [Compara Texto (PHP)](https://github.com/redfire314/portfolio-dev#compara-texto-php)
+- [Contato](https://github.com/redfire314/portfolio-dev#contato-mailbox)
      - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
      - [E-mail](mailto:redfire314developer@gmail.com)
 
@@ -83,38 +83,38 @@ MOVIEDB_API_KEY_V4=Chave TMDB
 REACT_APP_API_BASEURL=Endpoint do Back-end. Ex.: http://localhost:5000/api/movie
 ```
 
-[Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/reactjs-movie-app)
+[Repositório](https://github.com/redfire314/portfolio-dev/tree/master/projetos-pessoais/reactjs-movie-app) | [Demo](https://leandrofreelancer.com.br/images/jobs/job9.webp)
 
 ### TODO List (ReactJS)
 Permite que o usuário adicione tarefas a serem feitas, marcá-las como finalizadas e removê-las.
 
 Faz uso de: ReactJS, TypeScript, Styled-Components, entre outros.
 
-[Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/reactjs-todo-list) | [Demo](https://leandrofreelancer.com.br/demo/reactjs-todo-list/)
+[Repositório](https://github.com/redfire314/portfolio-dev/tree/master/projetos-pessoais/reactjs-todo-list) | [Demo](https://leandrofreelancer.com.br/demo/reactjs-todo-list/)
 
 ### Counter (ReactJS)
 O usuário gira a moeda com 50% de chance de fazê-la mudar de lado, e o contador conta quantas vezes o usuário girou a moeda.
 
 Faz uso de: ReactJS, TypeScript, React-Redux, Styled-Components, memo, useMemo, entre outros.
 
-[Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/reactjs-counter) | [Demo](https://leandrofreelancer.com.br/demo/reactjs-counter/)
+[Repositório](https://github.com/redfire314/portfolio-dev/tree/master/projetos-pessoais/reactjs-counter) | [Demo](https://leandrofreelancer.com.br/demo/reactjs-counter/)
 
 ### Get a Pet (ReactJS + Express + MongoDB)
 Permite que o usuário se registre, altere seu perfil, registre Pet para adoção, altere os dados do seu Pet e concluir a adoção.
 
 Site com Front-end e Back-end separado, comunicação através de API REST, faz uso de Banco de Dados NoSQL (MongoDB) e Json Web Token.
 
-[Repositório](https://github.com/redfire314/portfolioDev/tree/master/cursos/nodejs-do-zero-a-maestria-com-diversos-projetos/4-get-a-pet)
+[Repositório](https://github.com/redfire314/portfolio-dev/tree/master/cursos/nodejs-do-zero-a-maestria-com-diversos-projetos/4-get-a-pet)
 
 ### Compara Texto (PHP)
 Compara Texto é um Projeto Pessoal com o objetivo de comparar textos e retornar as estatísticas da comparação.
 
 O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, JQuery e Responsive Design.
 
-[Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/compara-texto)
+[Repositório](https://github.com/redfire314/portfolio-dev/tree/master/projetos-pessoais/compara-texto)
 
 ## Contato :mailbox:
 - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
 - [E-mail](mailto:redfire314developer@gmail.com)
 
-[Voltar ao topo :top:](https://github.com/redfire314/portfolioDev#conteúdo-notebook)
+[Voltar ao topo :top:](https://github.com/redfire314/portfolio-dev#conteúdo-notebook)
