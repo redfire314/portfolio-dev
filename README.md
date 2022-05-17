@@ -1,7 +1,25 @@
+```javascript
+const redfire314 = {
+    name: 'Leandro Araújo',
+    role: 'Web Developer',
+    location: 'Brazil',
+    languages: ['pt-BR', 'en-US'],
+    skills: {
+        frontEnd: ['HTML', 'CSS', 'JavaScript'],
+        backEnd: ['Node.js'],
+        database: ['mongoDB', 'MySQL'],
+        misc: ['TypeScript', 'Express', 'ReactJS', 'Styled-Components']
+    }
+    // And more..
+}
+```
+
 ## Conteúdo :notebook:
+<!--
 - [Cursos](https://github.com/redfire314/portfolioDev#cursos-man_student)
      - [Node.js do Zero a Maestria com diversos Projetos](https://github.com/redfire314/portfolioDev#nodejs-do-zero-a-maestria-com-diversos-projetos)
      - [Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos](https://github.com/redfire314/portfolioDev#desenvolvimento-web-completo-2021---20-cursos--20-projetos)
+-->
 - [Destaques](https://github.com/redfire314/portfolioDev#destaques-fire)
 - [Hard skills](https://github.com/redfire314/portfolioDev#hard-skills-star)
 - [Projetos](https://github.com/redfire314/portfolioDev#projetos-telescope)
@@ -10,9 +28,11 @@
      - [Counter (ReactJS)](https://github.com/redfire314/portfolioDev#counter-reactjs)
      - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolioDev#get-a-pet-reactjs--express--mongodb)
      - [Compara Texto (PHP)](https://github.com/redfire314/portfolioDev#compara-texto-php)
-- [Links](https://github.com/redfire314/portfolioDev#links-mailbox)
+- [Contato](https://github.com/redfire314/portfolioDev#contato-mailbox)
      - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
+     - [E-mail](mailto:redfire314developer@gmail.com)
 
+<!--
 ## Cursos :man_student:
 ### Node.js do Zero a Maestria com diversos Projetos
 [Certificado](https://www.udemy.com/certificate/UC-e0ffdd67-80f8-481d-be93-1112c294047e/)
@@ -23,6 +43,7 @@ Node.js, npm, Express, Express-handlebars, MySQL, Sequelize, MVC, MongoDB, Mongo
 [Certificado](https://www.udemy.com/certificate/UC-d2a53415-6284-4828-8291-ba1e2e8e10f6/)
 
 HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação a Objetos, MySQL, AJAX, Design MVC, JQuery, API Slim Framework, WordPress, SASS e IONIC.
+-->
 
 ## Destaques :fire:
 - TypeScript
@@ -33,7 +54,7 @@ HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação
 - Redux
 - Styled-Components
 
-## Hard skills :star:
+## Hard skills :star2:
 - HTML
 - CSS
 - JavaScript
@@ -92,7 +113,8 @@ O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, 
 
 [Repositório](https://github.com/redfire314/portfolioDev/tree/master/projetos-pessoais/compara-texto)
 
-## Links :mailbox:
+## Contato :mailbox:
 - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
+- [E-mail](mailto:redfire314developer@gmail.com)
 
 [Voltar ao topo :top:](https://github.com/redfire314/portfolioDev#conteúdo-notebook)
