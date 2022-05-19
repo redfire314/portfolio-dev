@@ -10,60 +10,41 @@ const redfire314 = {
         database: ['mongoDB', 'MySQL'],
         misc: ['TypeScript', 'Express', 'ReactJS', 'Styled-Components']
     }
-    // And more..
+    // And more...
 }
 ```
 
-## Conteúdo :notebook:
-<!--
-- [Cursos](https://github.com/redfire314/portfolio-dev#cursos-man_student)
-     - [Node.js do Zero a Maestria com diversos Projetos](https://github.com/redfire314/portfolio-dev#nodejs-do-zero-a-maestria-com-diversos-projetos)
-     - [Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos](https://github.com/redfire314/portfolio-dev#desenvolvimento-web-completo-2021---20-cursos--20-projetos)
--->
+## Conteúdo :bookmark:
 - [Destaques](https://github.com/redfire314/portfolio-dev#destaques-fire)
-- [Hard skills](https://github.com/redfire314/portfolio-dev#hard-skills-star)
+- [Hard skills](https://github.com/redfire314/portfolio-dev#hard-skills-star2)
+     - [Outros](https://github.com/redfire314/portfolio-dev#outros-cloud)
 - [Projetos](https://github.com/redfire314/portfolio-dev#projetos-telescope)
      - [Movie App (ReactJS + Express)](https://github.com/redfire314/portfolio-dev#movie-app-reactjs--express)
      - [TODO List (ReactJS)](https://github.com/redfire314/portfolio-dev#todo-list-reactjs)
      - [Counter (ReactJS)](https://github.com/redfire314/portfolio-dev#counter-reactjs)
-     - [Get a Pet (ReactJS + Express + MongoDB)](https://github.com/redfire314/portfolio-dev#get-a-pet-reactjs--express--mongodb)
-     - [Compara Texto (PHP)](https://github.com/redfire314/portfolio-dev#compara-texto-php)
 - [Contato](https://github.com/redfire314/portfolio-dev#contato-mailbox)
      - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
      - [E-mail](mailto:redfire314developer@gmail.com)
 
-<!--
-## Cursos :man_student:
-### Node.js do Zero a Maestria com diversos Projetos
-[Certificado](https://www.udemy.com/certificate/UC-e0ffdd67-80f8-481d-be93-1112c294047e/)
-
-Node.js, npm, Express, Express-handlebars, MySQL, Sequelize, MVC, MongoDB, Mongoose, API REST, ReactJS e Json Web Token.
-
-### Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos
-[Certificado](https://www.udemy.com/certificate/UC-d2a53415-6284-4828-8291-ba1e2e8e10f6/)
-
-HTML5, CSS3, JavaScript, Bootstrap 5, ECMAScript 2015 - 2021, PHP7, Orientação a Objetos, MySQL, AJAX, Design MVC, JQuery, API Slim Framework, WordPress, SASS e IONIC.
--->
-
 ## Destaques :fire:
 - TypeScript
-- Padrão MVC
+- Microservices
+- Single-page Application
 - Domain-Driven Design (DDD)
 - Test-Driven Development (TDD)
-- API REST
-- Redux
-- Styled-Components
 
 ## Hard skills :star2:
 - HTML
 - CSS
 - JavaScript
-- PHP
-- MySQL
 - Node.js
 - Express
-- MongoDB
 - ReactJS
+- MySQL
+- MongoDB
+
+### Outros :cloud:
+Git, Desenvolvimento ágil, UML, Redux, Styled-Components, Padrão MVC, PHP, SASS, Jquery e WordPress.
 
 ## Projetos :telescope:
 ### Movie App (ReactJS + Express)
@@ -99,22 +80,8 @@ Faz uso de: ReactJS, TypeScript, React-Redux, Styled-Components, memo, useMemo, 
 
 [Repositório](https://github.com/redfire314/portfolio-dev/tree/master/projetos-pessoais/reactjs-counter) | [Demo](https://leandrofreelancer.com.br/demo/reactjs-counter/)
 
-### Get a Pet (ReactJS + Express + MongoDB)
-Permite que o usuário se registre, altere seu perfil, registre Pet para adoção, altere os dados do seu Pet e concluir a adoção.
-
-Site com Front-end e Back-end separado, comunicação através de API REST, faz uso de Banco de Dados NoSQL (MongoDB) e Json Web Token.
-
-[Repositório](https://github.com/redfire314/portfolio-dev/tree/master/cursos/nodejs-do-zero-a-maestria-com-diversos-projetos/4-get-a-pet)
-
-### Compara Texto (PHP)
-Compara Texto é um Projeto Pessoal com o objetivo de comparar textos e retornar as estatísticas da comparação.
-
-O app aplica técnicas como OOP, MVC, Friendly URL, PSR-4, PSR-12, Materialize, JQuery e Responsive Design.
-
-[Repositório](https://github.com/redfire314/portfolio-dev/tree/master/projetos-pessoais/compara-texto)
-
 ## Contato :mailbox:
 - [LinkedIn](https://www.linkedin.com/in/leandroaraujowm/)
 - [E-mail](mailto:redfire314developer@gmail.com)
 
-[Voltar ao topo :top:](https://github.com/redfire314/portfolio-dev#conteúdo-notebook)
+[Voltar ao topo :top:](https://github.com/redfire314/portfolio-dev#conteúdo-bookmark)
