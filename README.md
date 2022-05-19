@@ -5,10 +5,9 @@ const redfire314 = {
     location: 'Brazil',
     languages: ['pt-BR', 'en-US'],
     skills: {
-        frontEnd: ['HTML', 'CSS', 'JavaScript'],
-        backEnd: ['Node.js'],
-        database: ['mongoDB', 'MySQL'],
-        misc: ['TypeScript', 'Express', 'ReactJS', 'Styled-Components']
+        frontEnd: ['HTML', 'CSS', 'JavaScript', 'ReactJS'],
+        backEnd: ['Node.js', 'Express'],
+        database: ['MySQL', 'MongoDB']
     }
     // And more...
 }
@@ -37,14 +36,14 @@ const redfire314 = {
 - HTML
 - CSS
 - JavaScript
+- ReactJS
 - Node.js
 - Express
-- ReactJS
 - MySQL
 - MongoDB
 
 ### Outros :cloud:
-Git, Desenvolvimento ágil, UML, Redux, Styled-Components, Padrão MVC, PHP, SASS, Jquery e WordPress.
+Git, Desenvolvimento ágil, UML, API REST, Redux, Styled-Components, Padrão MVC, PHP, SASS, Jquery e WordPress.
 
 ## Projetos :telescope:
 ### Movie App (ReactJS + Express)
