@@ -18,7 +18,7 @@ const redfire314 = {
 - [Hard skills](https://github.com/redfire314/portfolio-dev#hard-skills-star2)
      - [Outros](https://github.com/redfire314/portfolio-dev#outros-cloud)
 - [Projetos](https://github.com/redfire314/portfolio-dev#projetos-telescope)
-     - [Movie App (ReactJS + Express)](https://github.com/redfire314/portfolio-dev#movie-app-reactjs--express)
+     - [Netflix Clone (ReactJS)](https://github.com/redfire314/portfolio-dev#netflix-clone-reactjs)
      - [TODO List (ReactJS)](https://github.com/redfire314/portfolio-dev#todo-list-reactjs)
      - [Counter (ReactJS)](https://github.com/redfire314/portfolio-dev#counter-reactjs)
 - [Contato](https://github.com/redfire314/portfolio-dev#contato-mailbox)
@@ -46,24 +46,13 @@ const redfire314 = {
 Git, Desenvolvimento ágil, UML, API REST, Redux, Styled-Components, Padrão MVC, PHP, SASS, Jquery e WordPress.
 
 ## Projetos :telescope:
-### Movie App (ReactJS + Express)
+### Netflix Clone (ReactJS)
 Mostra ao usuário os filmes em lançamento, popular, mais avaliados e informações detalhadas do filme.
 Utiliza informações do [TMDB](https://www.themoviedb.org/) como fonte de dados.
 
-Faz uso de: ReactJS, Express, TypeScript, Axios, Morgan, PM2, Styled-Components, React Router Dom, entre outros.
+Faz uso de: ReactJS, TypeScript, Axios, Styled-Components, React Router Dom, Vite, entre outros.
 
-**Back-end .env**
-```
-APP_PORT=Porta utlizada no Back-end. Ex.: 5000
-MOVIEDB_API_KEY_V4=Chave TMDB
-```
-
-**Front-end .env**
-```
-REACT_APP_API_BASEURL=Endpoint do Back-end. Ex.: http://localhost:5000/api/movie
-```
-
-[Repositório](https://github.com/redfire314/portfolio-dev/tree/master/projetos-pessoais/reactjs-movie-app) | [Demo](https://leandrofreelancer.com.br/images/jobs/job9.webp)
+[Figma](https://www.figma.com/community/file/967543658879972914) | [Repositório](https://github.com/redfire314/portfolio-dev/tree/master/projetos-pessoais/reactjs-netflix-clone) | [Preview](https://leandrofreelancer.com.br/images/jobs/job9.webp)
 
 ### TODO List (ReactJS)
 Permite que o usuário adicione tarefas a serem feitas, marcá-las como finalizadas e removê-las.
